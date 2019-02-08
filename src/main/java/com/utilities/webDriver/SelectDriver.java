@@ -47,7 +47,7 @@ public class SelectDriver {
         File resourcesDirectory = new File("src/test/resources");
         resourcesDirectory.getAbsolutePath();
         String path = resourcesDirectory.getAbsolutePath() + "\\drivers\\geckodriver.exe";
-
+    //setting relative path
         System.setProperty("webdriver.gecko.driver",path);
         WebDriver driver = new FirefoxDriver();
 
