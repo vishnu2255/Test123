@@ -3,8 +3,8 @@ package com.utilities.webDriver;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
+
+import java.io.File;
 
 @Slf4j
 public class SelectDriver {
@@ -44,18 +44,14 @@ public class SelectDriver {
 
     public static WebDriver getFirefoxDriver()
     {
-        System.setProperty("webdriver.gecko.driver","/Users/vishnupatlolla/IdeaProjects/geckodriver");
+        File resourcesDirectory = new File("src/test/resources");
+        resourcesDirectory.getAbsolutePath();
+        String path = resourcesDirectory.getAbsolutePath() + "\\drivers\\geckodriver.exe";
+
+        System.setProperty("webdriver.gecko.driver",path);
         WebDriver driver = new FirefoxDriver();
 
-        FirefoxProfile profile = new FirefoxProfile();
-        profile.setPreference("browser.download.dir", "/Users/vishnupatlolla/IdeaProjects/SeleniumTest/src/test/resources/downloads/");
-        profile.setPreference("browser.helperapps.neverAsk.saveToDisk", "pdf");
-        profile.setPreference("browser.download.folderList", 2);
-
-        FirefoxOptions options = new FirefoxOptions();
-        options.setProfile(profile);
-
-        return new FirefoxDriver(options);
+        return driver;
     }
 
 }

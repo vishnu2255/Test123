@@ -1,31 +1,27 @@
 package com.steps.ui;
 
-import com.utilities.Dummy2;
-import com.utilities.DummyDriver;
+import com.utilities.webDriver.DriverFactory;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class PicoHooks  {
+public class PicoHooks extends DriverFactory {
 
-    private DummyDriver base;
-    private Dummy2 dum;
-    public PicoHooks(DummyDriver base,Dummy2 dum)
-    {
-        this.base = base;
-        this.dum  = dum;
-    }
+    Logger logger = LoggerFactory.getLogger(PicoHooks.class);
 
     @Before
-    public void before()
+    public void before(Scenario scenario)
     {
-        base.text = "test pico ";
-        System.out.println("before "+base.text + " dummy text "+ dum.temp);
+        logger.info("Scenario Started");
     }
 
     @After
     public void after()
     {
-        System.out.println("After "+ base.text);
+        logger.info("scenario ended");
+        driver.quit();
     }
 
 }
