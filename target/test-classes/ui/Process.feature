@@ -4,6 +4,7 @@ Feature: Mortgage Calculator Test
     Given I am on home page
     And I navigate to Calculator page
 
+  @test
   Scenario: UI- Test calculator with valid inputs -1
     Given I am on Calculator page
     When I give payment type as purchase price

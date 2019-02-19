@@ -17,10 +17,9 @@ public class HomePageSteps extends DriverFactory {
     }
 
     @Given("^I am on home page$")
-        public void homePage()
-        {
+        public void homePage() throws InterruptedException {
           //  homepage.get();
-            driver.get("https://ia.ca/");
+            driver.get("https://na85.salesforce.com/home/home.jsp");
+            Thread.sleep(30000);
         }
-
 }
