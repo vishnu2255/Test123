@@ -1,24 +1,29 @@
 package com.pages.basePage;
 
 import com.utilities.WaitUtils;
-import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.LoadableComponent;
 
-@Slf4j
-public abstract class BasePage<T extends LoadableComponent<T>> extends LoadableComponent<T> {
+public class BasePage <T extends LoadableComponent<T>> extends LoadableComponent<T> {
 
-    protected WaitUtils waitUtils;
     protected WebDriver driver;
+    protected WaitUtils waitUtils;
 
-
-    public BasePage(WebDriver driver)
-    {
+    public BasePage(WebDriver driver){
         this.driver = driver;
         waitUtils = new WaitUtils(driver);
         PageFactory.initElements(driver,this);
-        log.info("base page");
+
     }
 
+    @Override
+    protected void load() {
+
+    }
+
+    @Override
+    protected void isLoaded() throws Error {
+
+    }
 }

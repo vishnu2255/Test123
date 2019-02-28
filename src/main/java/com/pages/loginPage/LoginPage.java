@@ -16,17 +16,18 @@ public class LoginPage extends BasePage<LoginPage> {
 
     }
 
-    @FindBy(xpath = "//*[@id=\"username\"]")
+    @FindBy(xpath = "//*[@id=\"login_user\"]")
     WebElement username;
 
-    @FindBy(xpath = "//*[@id=\"password\"]")
+    @FindBy(xpath = "//*[@id=\"login_pw\"]")
     WebElement password;
 
-    @FindBy(xpath = "//*[@id=\"Login\"]")
+    @FindBy(xpath = "//*[@id=\"login_btn\"]")
     WebElement login;
 
-    @FindBy(xpath = "//*[@id=\"error\"]")
+    @FindBy(xpath = "//*[@id=\"loginForm\"]/div[5]/div[1]/p")
     WebElement errorMsg;
+
 
     public void login(String val)
     {
@@ -35,12 +36,11 @@ public class LoginPage extends BasePage<LoginPage> {
 
         switch(val){
         case ("valid"):
-            uname = "raghavreddy@canadadrive.com";
-            pass ="Qatesting@1";
+
             break;
         case ("invalid"):
-            uname = "test";
-            pass = "test";
+            uname = "test@gmail.com";
+            pass = "test@123";
             break;
 
         default:
@@ -58,10 +58,11 @@ public class LoginPage extends BasePage<LoginPage> {
         }
     }
 
+
     public Boolean errorMsgExists(){
 
         try{
-            return errorMsg.isDisplayed();
+            return waitUtils.getElementAfterMediumWait(errorMsg).isDisplayed();
 
         }catch (Exception e)
         {
@@ -70,14 +71,24 @@ public class LoginPage extends BasePage<LoginPage> {
         }
     }
 
+    public Boolean verifyLoginPage(){
+        return driver.getCurrentUrl().contains("login.firmex.com");
+    }
 
     @Override
     protected void load() {
-
+    driver.get("https://login.firmex.com");
     }
 
     @Override
     protected void isLoaded() throws Error {
-
+    if(driver.getCurrentUrl().contains("login"))
+    {
+        System.out.println("login page loaded");
+    }
+    else
+    {
+        System.out.println("not loded");
+    }
     }
 }

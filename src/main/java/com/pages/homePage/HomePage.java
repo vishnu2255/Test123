@@ -1,8 +1,6 @@
 package com.pages.homePage;
 
 import com.pages.basePage.BasePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,13 +8,11 @@ import org.openqa.selenium.support.FindBy;
 //LoadableComponent<HomePage>
 public class HomePage extends BasePage<HomePage> {
 
-    @FindBy(xpath = "//*[@id=\"nav-secondaire\"]/div[1]/ul/li[4]/a/span")
-    WebElement loansBtn;
+    @FindBy(xpath = "//*[@id=\"site-navigation\"]/a[1]")
+    WebElement loginBtn;
 
 
 
-    //*[@id="nav-secondaire"]/div[1]/ul/li[4]/ul/li[2]/section[1]/ul/li[2]/a
-    //*[@id="nav-secondaire"]/div[1]/ul/li[4]/a/span
    private WebDriver driver;
 
    public HomePage(WebDriver driver)
@@ -25,37 +21,38 @@ public class HomePage extends BasePage<HomePage> {
         this.driver = driver;
     }
 
-    public void navigateToCalPage()
-    {
-        try {
 
-            loansBtn.click();
-            driver.findElement(By.linkText("Mortgage payment calculator")).click();
-        }catch (NoSuchElementException e)
-        {
-            System.out.println(e);
-        }
+    public Boolean verifyTitle(){
+
+        System.out.println(driver.getTitle());
+        return driver.getTitle().contains("The World's Most Trusted Virtual Data Room | Firmex");
     }
+
+    public void navigateToLoginPage(){
+       waitUtils.getElementAfterShortWait(loginBtn).click();
+    }
+
 
     @Override
     protected void load() {
 
-        driver.get("https://ia.ca/");
+        driver.get("https://www.firmex.com/");
     }
 
     @Override
     protected void isLoaded() throws Error {
         try{
 
-            if(driver.getCurrentUrl().contains("https://ia.ca/"))
+            if(driver.getCurrentUrl().contains("https://www.firmex.com/"))
             {
                 System.out.println("home page loaded");
             }
 
         }catch (Exception e)
         {
-            System.out.println("home page not loaded");
+                System.out.println("home page not loaded");
         }
-    }
+
+   }
 
 }
