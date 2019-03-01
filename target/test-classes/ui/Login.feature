@@ -1,6 +1,5 @@
 Feature: Test Login feature
 
-
   Scenario:UI - Login test with Invalid credentials
   Given I navigate to the Firmex home page
   And I verify home page title

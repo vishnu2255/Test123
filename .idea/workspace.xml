@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026fc209-f1f5-4c37-9632-b733f1a6b9e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utilities/LoginPayload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/accountsPage/AccountPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/basePage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/basePage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/calculatorPage/CalculatorPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/homePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/leadPage/LeadPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/loginPage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/loginPage/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/AccountPageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/ui/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/LeadPageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/LoginStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/ui/LoginStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/MyStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/PicoHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/ui/PicoHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/Account.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/Leads.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui/Process.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SeleniumTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/accountsPage/AccountPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/basePage/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/basePage/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/calculatorPage/CalculatorPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/leadPage/LeadPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/loginPage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/loginPage/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SeleniumTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/AccountPageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/ui/HomePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/LeadPageSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/LoginStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/ui/LoginStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/MyStepdefs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/PicoHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/ui/PicoHooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/Account.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/Leads.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steps/ui/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steps/ui/ApiSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ui/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/Process.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="118">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +109,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/steps/ui/PicoHooks.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ui/LoginAPI.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/steps/ui/HomePageSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/ui/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java" />
       </list>
     </option>
   </component>
@@ -168,9 +145,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="339" />
-    <option name="width" value="642" />
-    <option name="height" value="342" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -178,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -256,6 +233,16 @@
               <item name="Test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="steps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Firmex" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -278,11 +265,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551393765887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551463586872" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -446,34 +434,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 15h 46m 16s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 17h 19m 39s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 16h 00m 57s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 17m 12s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 16h 07m 11s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 19m 19s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 16h 41m 47s.xml">
-      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 16h 44m 51s.xml">
-      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 17h 02m 23s.xml">
-      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__UI_-_Login_test_with_Invalid_credentials - 2019.02.28 at 17h 09m 03s.xml">
+    <history-entry file="Scenario__UI_-_Login_test_with_Invalid_credentials - 2019.03.01 at 12h 20m 14s.xml">
       <configuration name="Scenario: UI - Login test with Invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 17h 10m 17s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 45m 39s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 17h 15m 41s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 47m 32s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.02.28 at 17h 19m 39s.xml">
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 48m 27s.xml">
+      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 52m 36s.xml">
+      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 12h 54m 53s.xml">
+      <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__API_-_Login_test_with_Invalid_credentials_ - 2019.03.01 at 13h 00m 44s.xml">
       <configuration name="Scenario: API - Login test with Invalid credentials." configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -482,26 +470,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Learn" order="1" />
       <window_info id="Image Layers" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.31578946" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.2866397" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3321492" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40852576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3587922" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40852576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.93605685" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.062166963" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.39431617" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
@@ -543,9 +532,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java</url>
-          <line>55</line>
+          <line>81</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -641,22 +642,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/drivers/Process.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/pages/accountsPage/AccountPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/drivers/Process.feature" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/pages/accountsPage/AccountPage.class" />
     <entry file="file://$PROJECT_DIR$/target/test-classes/com/runner/RunUiTests.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -668,13 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Leads.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Leads.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/runner/RunUiTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -685,33 +666,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Account.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/accountsPage/AccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/leadPage/LeadPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Account.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/accountsPage/AccountPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/leadPage/LeadPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/basePage/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -722,27 +679,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/MyStepdefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="44" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/LeadPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="50" column="7" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/AccountPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/MyStepdefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/LeadPageSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/AccountPageSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pages/homePage/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -769,13 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/calculatorPage/CalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="18" column="28" lean-forward="true" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/calculatorPage/CalculatorPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utilities/webDriver/DriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -806,20 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/LoginAPI.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ui/LoginAPI.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/PicoHooks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -871,16 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -888,10 +798,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.1/cucumber-core-2.3.1.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ui/Login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="118">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/steps/ui/ApiSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
